@@ -1,0 +1,36 @@
+{
+  "name": "Practice-Express-Routes",
+  "version": "1.0.0",
+  "description": "More practice making express routes",
+  "main": "server.js",
+  "directories": {
+    "lib": "lib",
+    "test": "tests"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "start:watch": "nodemon server.js",
+    "test": "jest --verbose --runInBand",
+    "test:watch": "npm run test -- --watch" 
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aramirezdecruz3148/Practice-Express-Routes.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aramirezdecruz3148/Practice-Express-Routes/issues"
+  },
+  "homepage": "https://github.com/aramirezdecruz3148/Practice-Express-Routes#readme",
+  "devDependencies": {
+    "eslint": "^6.0.1",
+    "jest": "^24.8.0",
+    "nodemon": "^1.19.1",
+    "supertest": "^4.0.2"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
