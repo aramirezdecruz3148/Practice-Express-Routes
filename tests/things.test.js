@@ -13,4 +13,15 @@ describe('route tests', () => {
         });
       });
   });
+
+  it('can retrieve a thing by id', () => {
+    return request(app)
+      .get('/api/v1/things/0')
+      .then(res => {
+        expect(res.body).toEqual({ 
+          type: 'thing1', 
+          description: 'first thing' 
+        });
+      });
+  });
 });
